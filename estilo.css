@@ -1,5 +1,5 @@
 .logo{
-    width: 150px;
+    width: 150px !important;
 }
 .header{
     background-color: rgb(68, 69, 150) !important;
