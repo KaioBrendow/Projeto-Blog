@@ -4,49 +4,141 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
     <title>Blog do Kaio</title>
   </head>
   <body>
-    <table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody>
-        <tr><td style="text-align: center;"><a href="" style="clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" data-original-height="960" data-original-width="960" height="200" src="Imagens/kaio.jpg" width="200" /></a></td></tr>
-        <tr><td class="tr-caption" style="text-align: center;">Kaio Brendow</td></tr>
-        </tbody></table>
-        
-        <h1>
-          Inicio do Blog
-        </h1>
-        <p>
-          Oi meu nome é Kaio Brendow!
-        </p>
-        
-        <p>
-          Sou estudante de Ciência da Computação - Puc Minas.
-        </p>
-        
-        <p>
-          Objetivo do Blog:
-        </p>
-        <p>
-          Documentar meu progresso de aprendizagem.
-        </p>
-        
-        <h3>
-          No primeiro post:&nbsp;
-        </h3>
-        <p>
-          Venho apresentar hoje meu primeiro projeto:
-        </p>
-        <iframe allowfullscreen="" allowtransparency="true" frameborder="0" height="402" scrolling="no" src="https://scratch.mit.edu/projects/369832174/embed" width="485"></iframe>
-        
-        <p>
-          Pensei nesse projeto para ajudar crianças a aprender palavras em 2 idiomas.</br>
-          Ele ainda esta em desenvolvimento mas já da pra ter uma leve ideia.
-        </p>
+    <header class="conteiner header">
 
+      <div class ="row">
+
+        <div class="col-12 header_area">
+
+          <div class="row">
+            
+            <div class="col-12 col-sm-12 col-md-4">
+              <img src="Imagens/kaio.jpg" class="logo" title="Kaio Brendow">
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 menu_area">
+              <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Posts</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Contatos</a>
+                <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header> 
+
+        <main class="conteiner main">
+          <div class="row">
+            <div class="col-12 main_area">
+              <div class="row">
+
+                <div class="col-2 pricol">
+                  Lateral esquerda
+                </div>
+                <div class="col-5 segcol">
+                  <h1>
+                    Inicio do Blog
+                  </h1>
+                  <p>
+                    Oi meu nome é Kaio Brendow!
+                  </p>
+                  
+                  <p>
+                    Sou estudante de Ciência da Computação - Puc Minas.
+                  </p>
+                  
+                  <p>
+                    Objetivo do Blog:
+                  </p>
+                  <p>
+                    Documentar meu progresso de aprendizagem.
+                  </p>
+                  
+                  <h3>
+                    No primeiro post:
+                  </h3>
+                  <p>
+                    Venho apresentar hoje meu primeiro projeto:
+                  </p>
+                  <iframe allowfullscreen="" allowtransparency="true" frameborder="0" height="402" scrolling="no" src="https://scratch.mit.edu/projects/369832174/embed" width="485"></iframe>
+                  
+                  <p>
+                    Pensei nesse projeto para ajudar crianças a aprender palavras em 2 idiomas.</br>
+                    Ele ainda esta em desenvolvimento mas já da pra ter uma leve ideia.
+                  </p>
+                </div>
+                <div class="col-5 tricol">
+                  <div class="row">
+                    <div class="col-12">
+                      Lateral direita
+                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Imagens/linguagens/c.jpg" class="d-block w-100" alt="1slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/HTML-CSS.png" class="d-block w-100" alt="2slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/cpp.png" class="d-block w-100" alt="3slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/java.jpg" class="d-block w-100" alt="4slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/App-Inventor.png" class="d-block w-100" alt="5slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/tinkercad-e-arduino.png" class="d-block w-100" alt="6slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/java-script.png" class="d-block w-100" alt="7slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Imagens/linguagens/SLNova.png" class="d-block w-100" alt="8slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only" title="Anterior">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only" title="Próximo">Próximo</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+        <footer class="footer">
+          <div class="row"> 
+            <div class="col-12 footer_area">
+              Rodapé!
+            </div>
+          </div>
+        </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
