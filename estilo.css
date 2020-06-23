@@ -2,7 +2,7 @@
     width: 150px !important;
 }
 .header{
-    background-color: rgb(68, 69, 150) !important;
+    background-color: rgb(19, 19, 54) !important;
     text-align: center;
 }
 .header_area{
@@ -15,23 +15,26 @@
     align-items: center;
 }
 .menu_area nav a{
-    background-color:  rgb(78, 80, 223);
+    background-color:  rgb(53, 53, 90);
     color: white;
+    
 }
 .menu_area nav a:hover{
-    background-color:  rgb(68, 69, 150);
+    background-color:  rgb(23, 25, 97);
 }
 
 .main{
-    background-color:  rgb(89, 91, 190);
+    background-color:  rgb(57, 57, 83);
+    color: white;
+    padding-bottom: 30px;
 }
 .main .pricol{
-    background-color: rgb(61, 62, 136);
+    background-color: rgb(49, 50, 88);
     padding-left: 10px;
     text-align: center;
 }
 .main .tricol{
-    background-color: rgb(61, 62, 136);
+    background-color: rgb(49, 50, 88);
     padding-right: 10px;
     text-align: center;
 }
@@ -45,11 +48,11 @@
     align-items: center;
 }
 .active{
-    background-color:  rgb(22, 25, 196) !important;
+    background-color:  rgb(23, 25, 97) !important;
 }
 .footer{
-    margin-top: 20px;
-    background:  rgb(68, 69, 150);
+    margin-top: 5px;
+    background:  rgb(19, 19, 54)
 }
 .footer_area{
     padding: 20px;
